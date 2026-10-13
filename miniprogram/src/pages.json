@@ -1,0 +1,136 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": { "navigationBarTitleText": "智荟华科仪器维修", "navigationBarBackgroundColor": "#1677FF", "navigationBarTextStyle": "white" }
+    },
+    {
+      "path": "pages/report/report",
+      "style": { "navigationBarTitleText": "设备报修" }
+    },
+    {
+      "path": "pages/orders/list",
+      "style": { "navigationBarTitleText": "我的工单" }
+    },
+    {
+      "path": "pages/orders/detail",
+      "style": { "navigationBarTitleText": "工单详情" }
+    },
+    {
+      "path": "pages/devices/list",
+      "style": { "navigationBarTitleText": "我的设备" }
+    },
+    {
+      "path": "pages/devices/detail",
+      "style": { "navigationBarTitleText": "设备详情" }
+    },
+    {
+      "path": "pages/devices/add",
+      "style": { "navigationBarTitleText": "添加设备" }
+    },
+    {
+      "path": "pages/mine/profile",
+      "style": { "navigationBarTitleText": "个人信息" }
+    },
+    {
+      "path": "pages/mine/mine",
+      "style": { "navigationBarTitleText": "我的" }
+    },
+    {
+      "path": "pages/engineer/index",
+      "style": { "navigationBarTitleText": "工程师工作台", "navigationBarBackgroundColor": "#1677FF", "navigationBarTextStyle": "white" }
+    },
+    {
+      "path": "pages/engineer/orders",
+      "style": { "navigationBarTitleText": "工单管理" }
+    },
+    {
+      "path": "pages/engineer/repair",
+      "style": { "navigationBarTitleText": "维修执行" }
+    },
+    {
+      "path": "pages/engineer/quote",
+      "style": { "navigationBarTitleText": "创建报价单" }
+    },
+    {
+      "path": "pages/engineer/quote-detail",
+      "style": { "navigationBarTitleText": "报价单详情" }
+    },
+    {
+      "path": "pages/engineer/mine",
+      "style": { "navigationBarTitleText": "我的" }
+    },
+    {
+      "path": "pages/knowledge/list",
+      "style": { "navigationBarTitleText": "维修知识库" }
+    },
+    {
+      "path": "pages/knowledge/detail",
+      "style": { "navigationBarTitleText": "文章详情" }
+    },
+    {
+      "path": "pages/marketplace/index",
+      "style": { "navigationBarTitleText": "需求广场", "navigationBarBackgroundColor": "#1677FF", "navigationBarTextStyle": "white" }
+    },
+    {
+      "path": "pages/marketplace/bids",
+      "style": { "navigationBarTitleText": "竞标对比" }
+    },
+    {
+      "path": "pages/marketplace/engineers",
+      "style": { "navigationBarTitleText": "工程师大厅" }
+    },
+    {
+      "path": "pages/marketplace/subscribe",
+      "style": { "navigationBarTitleText": "升级订阅" }
+    },
+    {
+      "path": "pages/payment/index",
+      "style": { "navigationBarTitleText": "支付" }
+    },
+    {
+      "path": "pages/payment/result",
+      "style": { "navigationBarTitleText": "支付结果" }
+    },
+    {
+      "path": "pages/wallet/index",
+      "style": { "navigationBarTitleText": "我的钱包" }
+    },
+    {
+      "path": "pages/wallet/withdraw",
+      "style": { "navigationBarTitleText": "提现" }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "智荟华科",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F6FA"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#1677FF",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+},
+      {
+        "pagePath": "pages/orders/list",
+        "text": "工单"
+},
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的"
+}
+    ]
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue"
+    }
+  }
+}
