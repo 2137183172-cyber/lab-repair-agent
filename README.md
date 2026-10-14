@@ -4,6 +4,12 @@
 
 A laboratory-instrument repair workflow foundation for users, engineers, and service coordinators. Agent capabilities are on the roadmap.
 
+## 工程导航与迭代逻辑
+
+[迭代复盘](docs/EVOLUTION.md) · [工程模块](docs/MODULES.md) · [设计取舍与实验计划](docs/ENGINEERING.md) · [个人 AI 工程作品集](https://github.com/2137183172-cyber)
+
+项目演进按“问题 → 设计选择 → 验证与边界”记录。早期修改来自原项目记录，公开仓库保留真实的首次公开日期。
+
 ## 项目的起点
 
 用户描述故障，工程师判断能否承接，协调方组织报价和进度。同一件事在不同角色之间传递时，容易缺少设备信息、诊断依据或明确的下一步。这个项目从维修小程序演进，尝试把这些协作环节放进可追踪的流程。
@@ -85,3 +91,5 @@ MIT License。依赖遵循各自许可。
 配套项目：[huaboshi-instrument-agent](https://github.com/2137183172-cyber/huaboshi-instrument-agent)。两个项目分别探索仪器选型与维修协作。
 
 [验证记录](docs/VALIDATION.md) · [参与讨论](https://github.com/2137183172-cyber/lab-repair-agent/discussions)
+
+[公开 Projects 看板：主项目、模块与下一步实验](https://github.com/users/2137183172-cyber/projects/1)
